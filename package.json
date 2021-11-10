@@ -1,0 +1,28 @@
+{
+  "name": "webpackloaderdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "deply": "webpack --mode production",
+    "dp": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stark920/WebpackLoaderDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stark920/WebpackLoaderDemo/issues"
+  },
+  "homepage": "https://github.com/stark920/WebpackLoaderDemo#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.63.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
