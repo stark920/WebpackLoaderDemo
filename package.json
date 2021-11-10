@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
-    "deply": "webpack --mode production",
+    "s": "webpack serve",
+    "dev": "webpack",
+    "deploy": "webpack --mode production",
     "dp": "webpack --mode production"
   },
   "repository": {
@@ -21,8 +22,10 @@
   "homepage": "https://github.com/stark920/WebpackLoaderDemo#readme",
   "devDependencies": {
     "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.63.0",
-    "webpack-cli": "^4.9.1"
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
   }
 }
